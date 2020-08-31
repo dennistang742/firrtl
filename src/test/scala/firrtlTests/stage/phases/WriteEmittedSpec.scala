@@ -5,7 +5,8 @@ package firrtlTests.stage.phases
 import java.io.File
 
 import firrtl._
-
+import firrtl.backends.verilog.{EmittedVerilogCircuit, EmittedVerilogModuleAnnotation, EmittedVerilogModule}
+import firrtl.backends.firrtl.{EmittedFirrtlModuleAnnotation, EmittedFirrtlModule}
 import firrtl.options.{Phase, TargetDirAnnotation}
 import firrtl.stage.OutputFileAnnotation
 import firrtl.stage.phases.WriteEmitted
